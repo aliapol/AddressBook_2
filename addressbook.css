@@ -1,0 +1,77 @@
+/*Need to make background image shrink for mobile*/
+
+body {
+    background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("addressbg.jpg");
+    background-size: cover;   
+    font-family: maven pro;
+}
+
+
+header {
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+}
+
+.inputForm {
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5em;
+    background-color: rgba(179,178,176, 0.6);
+    width: 75%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto; 
+}
+
+input {
+    display: block;
+    margin: 12px auto;
+    border-radius: 5px;
+    padding: 1%;
+    width: 50%;
+    background-color: #fff;
+}
+
+.addButton {
+    display: block;
+    margin: 12px auto;
+    border-radius: 5px;
+    padding: 1%;
+    width: 52%;
+}
+
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.contactBox {
+    border-radius: 10px;
+    box-shadow: 5em;
+    background-color: rgba(255,255,255,0.8);
+    padding: 1%;
+    width: 25%;
+    font-size: 14px;
+}
+
+.delete {
+    width: 10%;
+    height: 200%;
+    background-image: url("trash-can-circular-outlined-button.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    margin-right: 0px;
+    border: none;
+}
+
+
+
+
+
+
+

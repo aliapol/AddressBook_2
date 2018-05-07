@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title></title>
+        
+        <link href="addressbook.css" rel="stylesheet" type="text/css" media="all">
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+       <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+        
+        
+        
+    </head>
+
+    <body>
+        
+        <form class="inputForm">
+            <header>My Contacts</header>
+            
+            <form id="frm1">
+                <input id="name" type="text" placeholder="Name">
+            
+                <input id="emailAddress" type="email" placeholder="Email">
+            
+                <input id="number" type="text" placeholder="Number">
+            
+                <input list="relation" placeholder="Family">            
+                    <datalist id="relation" >
+                    <option value="Family">
+                    <option value="Friend">
+                    <option value="Colleague">
+                    <option value="Enemy">
+                    <option value="Self">
+                    </datalist> 
+            
+                <button class="addButton">Add</button>
+                
+                </form>
+            
+        </form>
+        
+        <div class="boxes">
+            <div class="contactBox">Some Javascript Goes in here
+            <button class="delete" onclick="alert('Hey!')"></button>
+            </div>
+            <div class="contactBox">Some Javascript Goes in here
+            <button class="delete" onclick="alert('Hey!')"></button>
+            </div>
+            <div class="contactBox">Some Javascript Goes in here
+            <button class="delete" onclick="alert('Hey!')"></button>
+            
+            </div>
+        </div>
+        
+        
+        <script src="addressbook2.js"></script>
+    
+    </body>
+
+    
+    
+    
+</html>
+
+    
